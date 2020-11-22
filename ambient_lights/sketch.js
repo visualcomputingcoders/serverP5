@@ -2,7 +2,7 @@ let newFont;
 let pointLightEnable = false; 
   
 function preload() { 
-  newFont = loadFont('fonts/Montserrat.otf'); 
+  //newFont = loadFont('fonts/Montserrat.otf'); 
 } 
   
 function setup() { 
