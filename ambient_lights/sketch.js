@@ -1,13 +1,10 @@
-let newFont; 
 let pointLightEnable = false; 
   
 function preload() { 
-  //newFont = loadFont('fonts/Montserrat.otf'); 
 } 
   
 function setup() { 
   createCanvas(600, 300, WEBGL); 
-  textFont(newFont, 18); 
   
   graySlider = createSlider(0, 128, 64, 1); 
   graySlider.position(20, 50); 
