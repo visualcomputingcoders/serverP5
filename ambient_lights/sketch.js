@@ -10,20 +10,17 @@ function setup() {
   graySlider.position(20, 50); 
   
   pointLightCheck = createCheckbox( 
-        "Enable Point Light", false); 
+        "Punto de luz", false); 
   
   pointLightCheck.position(20, 80); 
-  
-  // Toggle point light 
   pointLightCheck.changed(() => { 
     pointLightEnable = !pointLightEnable; 
   }); 
 } 
   
 function draw() { 
-  background("green"); 
-  text("Move the slider to change the ambient"
-      + " light's gray value.", -285, -125); 
+  background("white"); 
+
   noStroke(); 
   shininess(15); 
   if (pointLightEnable) { 
