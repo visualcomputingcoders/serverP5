@@ -20,7 +20,7 @@ function draw() {
   background(0);
   camera(0, 0, 500, 0, 0, 0, 0, -1, 0);
 
-  //ambientLight(60, 60, 60);
+  ambientLight(60, 60, 60);
   pointLight(255, 255, 255, 0, 0, 0);
   spotLight(255,255,255, 0,0,1000, 0,0,-1, 90)
   
